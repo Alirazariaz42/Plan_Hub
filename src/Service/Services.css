@@ -1,0 +1,399 @@
+.CenteralImgContainer {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.CenteralImg {
+  height: 400px;
+  width: 500px;
+}
+.MainServicsNamesContainer1 {
+ 
+  position: absolute;
+  background-image: radial-gradient(
+    /* rgb(63, 62, 62) 5%,
+    rgb(53, 52, 52) 15%, */
+    black 80%
+  );
+  padding: 10px;
+  /* background-color: black; */
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  
+  border-top: 6px solid #CFF0C5;
+  border-right: 6px solid  #20B621;
+  border-left: 6px solid  #20B621;
+  border-bottom: 6px solid #20B621;
+   
+  transition: 0.5s;
+  animation: yourAnimation2   3s infinite normal none;
+
+  right: 230px;
+  top: 0px;
+ 
+
+  
+}
+
+.MainServicsNamesContainer2 {
+  left: 230px;
+   top: 0px; 
+  position: absolute;
+  background-image: radial-gradient(
+    /* rgb(63, 62, 62) 5%,
+    rgb(53, 52, 52) 15%, */
+    black 80%
+  );
+  padding: 10px;
+  /* background-color: black; */
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  
+  border-top: 6px solid #CFF0C5;
+  border-right: 6px solid  #20B621;
+  border-left: 6px solid  #20B621;
+  border-bottom: 6px solid #20B621;
+   
+  transition: 0.5s;
+  animation: yourAnimation2   3s infinite normal none;
+}
+@keyframes yourAnimation2{
+ 
+  0% {
+
+    transform: rotate(0deg);
+    transition: 2s ;
+  }
+  100% {
+
+    transform: rotate(360deg);
+    transition: 2s ;
+  }
+}
+.MainServicsNamesContainer3 {
+ 
+  bottom: 30px;
+  right: 210px;
+  
+  position: absolute;
+  background-image: radial-gradient(
+    /* rgb(63, 62, 62) 5%,
+    rgb(53, 52, 52) 15%, */
+    black 80%
+  );
+  padding: 10px;
+  /* background-color: black; */
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  
+  border-top: 6px solid #CFF0C5;
+  border-right: 6px solid  #20B621;
+  border-left: 6px solid  #20B621;
+  border-bottom: 6px solid #20B621;
+   
+  transition: 0.5s;
+  animation: yourAnimation2   3s infinite normal none;
+}
+.MainServicsNamesContainer4 {
+
+  bottom: 30px;
+  left: 210px;
+  position: absolute;
+  background-image: radial-gradient(
+    /* rgb(63, 62, 62) 5%,
+    rgb(53, 52, 52) 15%, */
+    black 80%
+  );
+  padding: 10px;
+  /* background-color: black; */
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  
+  border-top: 6px solid #CFF0C5;
+  border-right: 6px solid  #20B621;
+  border-left: 6px solid  #20B621;
+  border-bottom: 6px solid #20B621;
+   
+  transition: 0.5s;
+  animation: yourAnimation2   3s infinite normal none;
+}
+.MainServicsNamesContainer2:hover {
+  /* background-image: radial-gradient(rgb(39, 87, 39) 20%, rgb(68, 172, 68) 80%); */
+  background: radial-gradient(rgb(39, 87, 39) 20%, rgb(68, 172, 68) 80%);
+  transition: 02s;
+}
+.MainServicsNamesContainer1:hover {
+  background: radial-gradient(rgb(39, 87, 39) 20%, rgb(68, 172, 68) 80%);
+  transition: 02s;
+}
+.MainServicsNamesContainer3:hover {
+  background: radial-gradient(rgb(39, 87, 39) 20%, rgb(68, 172, 68) 80%);
+  transition: 02s;
+}
+.MainServicsNamesContainer4:hover {
+  background: radial-gradient(rgb(39, 87, 39) 20%, rgb(68, 172, 68) 80%);
+  transition: 02s;
+}
+
+.MainServicsNames1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+  transition: .5s ease;
+  background-color: black;
+  border-left: 6px double #20B621;
+  border-right: 6px solid  #20B621;
+  border-bottom: 6px double  #20B621;
+  border-top: 6px double grey;
+  border-radius: 50%;
+  animation: yourAnimation   3s   infinite normal none;
+  /* transform: matrix(1.1, .2, 0.2, 1, 0, 0);
+  transition: 0.5s; */
+}
+
+@keyframes yourAnimation{
+
+  0% {
+    border-left: 6px solid #20B621;
+    border-right: 6px   double grey;
+    border-bottom: 6px solid  #20B621;
+    border-top: 6px solid #20B621;
+    /* transform: rotate(0deg); */
+    transition: .7s ;
+  }
+  25% {
+    border-left: 6px solid #20B621;
+    border-right: 6px solid  #20B621;
+    border-bottom: 6px double grey;
+    border-top: 6px solid #20B621;
+    /* transform: rotate(0deg); */
+    transition: .7s ;
+  }
+  50% {
+    border-left: 6px double grey;
+    border-right: 6px solid  #20B621;
+    border-bottom: 6px solid  #20B621;
+    border-top: 6px solid #20B621;
+    /* transform: rotate(0deg); */
+    transition: .7s ;
+  }
+  75% {
+    border-left: 6px solid #20B621;
+    border-right: 6px solid  #20B621;
+    border-bottom: 6px solid  #20B621;
+    border-top: 6px double grey;
+    /* transform: rotate(0deg); */
+    transition: .7s ;
+  }
+  100% {
+    border-left: 6px solid #20B621;
+    border-right: 6px double grey;
+    border-bottom: 6px solid  #20B621;
+    border-top: 6px solid #20B621;
+    transform: rotate(-360deg);
+    transition: .7s ;
+  }
+}
+
+
+/* .MainServicsNames1:hover {
+  text-align: center;
+  transform: none;
+  transition: 0.5s;
+} */
+.MainServicsNames2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
+  padding: 10px;
+  transition: .5s ease;
+  background-color: black;
+  border-left: 6px double #20B621;
+  border-right: 6px solid  #20B621;
+  border-bottom: 6px double  #20B621;
+  border-top: 6px solid black;
+  border-radius: 50%;
+  animation: yourAnimation   3s   infinite normal none;
+  /* transform: matrix(1.1, 0, 0.6, 1, -1, -17);
+  transition: 0.5s; */
+}
+/* .MainServicsNames2:hover {
+  text-align: center;
+  transform: none;
+  transition: 0.5s;
+} */
+.MainServicsNames3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+  transition: .5s ease;
+  background-color: black;
+  border-left: 6px double #20B621;
+  border-right: 6px solid  #20B621;
+  border-bottom: 6px double  #20B621;
+  border-top: 6px solid black;
+  border-radius: 50%;
+  animation: yourAnimation   3s   infinite normal none;
+}
+.MainServicsNames3:hover {
+  text-align: center;
+  transform: none;
+  transition: 0.5s;
+}
+.MainServicsNames4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+  transition: .5s ease;
+  background-color: black;
+  border-left: 6px double #20B621;
+  border-right: 6px solid  #20B621;
+  border-bottom: 6px double  #20B621;
+  border-top: 6px solid black;
+  border-radius: 50%;
+  animation: yourAnimation   3s   infinite normal none;
+}
+.MainServicsNames4:hover {
+  text-align: center;
+  transform: none;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 990px) {
+  .CenteralImg {
+    height: 250px;
+    width: 300px;
+  }
+  .MainServicsNamesContainer1 {
+    position: absolute;
+    background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(66, 64, 64, 1) 100%
+    );
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 150px;
+    right: 10px;
+    top: 30px;
+  }
+  .MainServicsNamesContainer2 {
+    position: absolute;
+    background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(66, 64, 64, 1) 100%
+    );
+    padding: 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 150px;
+    top: 30px;
+    left: 10px;
+  }
+  .MainServicsNamesContainer3 {
+    position: absolute;
+    background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(66, 64, 64, 1) 100%
+    );
+
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 150px;
+    bottom: 30px;
+    right: 10px;
+  }
+  .MainServicsNamesContainer4 {
+    position: absolute;
+    background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(66, 64, 64, 1) 100%
+    );
+
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 150px;
+    bottom: 30px;
+    left: 10px;
+  }
+  .MainServicsNames1 {
+    font-size: 14px;
+    transform: none;
+  }
+  .MainServicsNames2 {
+    font-size: 14px;
+  }
+  .MainServicsNames3 {
+    font-size: 14px;
+  }
+  .MainServicsNames4 {
+    font-size: 14px;
+  }
+}

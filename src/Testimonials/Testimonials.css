@@ -1,0 +1,110 @@
+.Testimonials {
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.Testimonials:hover {
+  box-shadow: 0px 0px 10px 5px;
+  transition: 0.5s;
+}
+.Testimonials1pic {
+  height: 100%;
+  width: 100%;
+}
+.TestimonialsContainer {
+  position: relative;
+}
+.Testimonials.Active {
+  border: 7px solid white;
+  box-shadow: 0px 0px 10px 5px;
+  transition: 0.5s;
+}
+.firstthirdpic {
+  margin-top: 70px;
+}
+.TestimonialsQuotsContainer {
+  position: relative;
+  background-color: white;
+  width: 65%;
+
+  height: 300px;
+  border-top-right-radius: 700px;
+  border-top-left-radius: 700px;
+}
+.quote {
+  height: 370px;
+  overflow: auto;
+}
+.TestimonialsQuots {
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  width: 50%;
+}
+@media screen and (max-width: 990px) {
+  .firstthirdpic {
+    margin-top: 90px;
+  }
+  .TestimonialsQuotsContainer {
+    position: relative;
+    background-color: white;
+    width: 50%;
+    height: 300px;
+    border-top-right-radius: 700px;
+    border-top-left-radius: 700px;
+    margin-top: -100px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Testimonials {
+    height: 120px;
+    width: 120px;
+    border-radius: 150px;
+    overflow: hidden;
+  }
+  .TestimonialsQuots {
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .firstthirdpic {
+    margin-top: 70px;
+  }
+  .TestimonialsQuotsContainer {
+    position: relative;
+    background-color: white;
+    width: 50%;
+    height: 300px;
+    border-top-right-radius: 700px;
+    border-top-left-radius: 700px;
+    margin-top: -80px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .firstthirdpic {
+    margin-top: 0px;
+  }
+  .TestimonialsQuotsContainer {
+    position: relative;
+    background-color: white;
+    width: 50%;
+    height: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 0px;
+  }
+  .TestimonialsQuots {
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    width: 90%;
+  }
+}

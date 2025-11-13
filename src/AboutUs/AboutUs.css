@@ -1,0 +1,13 @@
+.AboutUsMainImg{
+    width: 400px;
+    height: 300px;
+}
+
+
+@media screen and (max-width:500px) {
+    .AboutUsMainImg{
+        width: 300px;
+        height: 200px;
+    }
+    
+}

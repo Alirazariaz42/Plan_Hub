@@ -1,0 +1,192 @@
+
+.ModalContainer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 2% 300px;
+    position: fixed;
+    top: 0px;
+    z-index: 04 !important;
+    overflow: hidden;
+  }
+  .dummuclass {
+    background-color: rgb(17, 16, 16);
+    border-radius: 15px;
+   
+    overflow: auto;
+    padding: 40px;
+    position: relative;
+  }
+  .Drawing {
+    text-align: center;
+    color: white;
+  }
+  .note {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+  }
+  .closebtn {
+    color: #20B621;;
+    /* border: 1px solid #a6ff00; */
+    background-color: black;
+    border-radius: 26px;
+    padding: 0px 10px;
+    font-size: 22px;
+    margin-top: 10px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    transition: .1s;
+  }
+  .closebtn:hover{
+    border: 1px solid #20B621;
+    transition: .5s;
+  }
+  .form_controlstyle {
+    font-size: 17px !important;
+    font-weight: bold !important;
+    transition: 0.5s linear;
+  }
+  .form_controlstyle:focus {
+    border: 2px solid #a6ff00 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 253, 25, 0.425) !important;
+  }
+  .form_controlstyle:hover {
+    outline: 0;
+    box-shadow: 03px 0px 20px rgb(33, 253, 13) !important;
+  }
+  .form_controlstyle2 {
+    font-size: 17px !important;
+    font-weight: bold !important;
+    color: white !important;
+    background-color: black !important;
+    border: 2px solid #a6ff00 !important;
+    box-shadow: 0 0 0 0.25rem rgba(53, 253, 13, 0.425) !important;
+    transition: 0.5s linear !important;
+  }
+  .form_controlstyle2:focus {
+    border: 2px solid #a6ff00 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 253, 45, 0.425) !important;
+  }
+  .form_controlstyle2:hover {
+    outline: 0;
+    box-shadow: 03px 0px 20px rgb(41, 253, 13) !important;
+  }
+  .SubmitBtn {
+    border: 1px solid #a6ff00 !important;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 700 !important;
+    background-color: #20B621 !important;
+    transition: 0.5s !important;
+  }
+  .SubmitBtn:hover {
+    border: 1px solid #3cff00;
+    color: rgb(255, 255, 255) !important;
+    background-color: black !important;
+    transition: 0.5s;
+  }
+  .alertMessage{
+    position: absolute;
+    color:#18ff2b;
+    top: 50%;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 700;
+    left: 40%;
+    
+    border: 1px solid  #00ff55 ;
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .ModalContainer {
+      width: 100%;
+      height: 100vh;
+      padding: 1% 230px;
+      position: fixed;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+      .ModalContainer {
+        width: 100%;
+        height: 100vh;
+        padding: 1% 150px;
+        position: fixed;
+      }
+    }
+  
+    @media screen and (max-width: 750px) {
+      .ModalContainer {
+        width: 100%;
+        height: 100vh;
+        padding: 1% 100px;
+        position: fixed;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .ModalContainer {
+        width: 100%;
+        height: 100vh;
+        padding: 1% 10px;
+        position: fixed;
+      }
+  
+      .note {
+         display: none;
+        }
+    }
+  
+    @media screen and (max-width: 450px) {
+      .alertMessage{
+        position: absolute;
+        color:#33ff18;
+        top: 60%;
+        background-color: #000000;
+        padding: 10px;
+        border-radius: 8px;
+        font-weight: 700;
+        left: 25%;
+        
+        border: 1px solid  #51ff00 ;
+      }
+    }
+  
+  
+    /* @media screen and (max-height: 700px) {
+     
+      .dummuclass {
+        background-color: rgb(17, 16, 16);
+        border-radius: 15px;
+        
+        overflow: auto;
+        padding: 40px;
+        position: relative;
+      }
+  
+      .note {
+         display: block;
+        }
+    } */
+  
+    @media screen and (max-height: 620px) {
+     
+      .dummuclass {
+        background-color: rgb(17, 16, 16);
+        border-radius: 15px;
+        height: 500px;
+        overflow: auto;
+        padding: 40px;
+        position: relative;
+      }
+  
+      .note {
+         display: none;
+        }
+    }

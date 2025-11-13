@@ -1,0 +1,47 @@
+.AllServicesCardContainerPadding {
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: center;
+}
+.slide-in-left {
+  animation: slide-in-left 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.ourTradeHTHIclass {
+  width: 50%;
+}
+
+@media screen and (max-width: 1150px) {
+  .AllServicesCardContainerPadding {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 990px) {
+  .ourTradeHTHIclass {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .ourTradeHTHIclass {
+    width: 58%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ourTradeHTHIclass {
+    width: 78%;
+  }
+}

@@ -1,0 +1,893 @@
+::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Set the color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #20b621; /* Set the color of the scrollbar handle */
+  border-radius: 4px; /* Set the border radius to make it rounder */
+  margin-top: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #00ce11; /* Change color on hover */
+}
+.Bgpic {
+  background-image: url("../Images/sample1.png");
+  background-size: 100% 130%;
+}
+.Section1_MainHeading {
+  color: #000;
+  font-family: Merriweather Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.SubHeadingContainer {
+  display: flex;
+  width: 30vw;
+
+  /* flex-direction: column-reverse; */
+  justify-content: center;
+  align-items: center;
+  /* margin-right: auto; */
+  margin-left: auto;
+}
+.SubHeading {
+  color: #000;
+
+  font-family: Days One;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.MainHomeIImg {
+  width: 100%;
+  height: 350px;
+  border-radius: 30px;
+}
+
+.mainImgContainer {
+  position: relative;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+    color: #00ff15;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+.UploadPlansbtn {
+  border-radius: 15px;
+  border: 10px solid #fff;
+  background: #2f2f2f;
+  color: #fff;
+  padding: 15px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: absolute;
+  top: -40px;
+  left: 25%;
+  animation: blink 2s infinite;
+}
+.GreenDotsPipeContainer {
+  position: relative;
+
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.GreenDotsPipe {
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  top: 25px;
+}
+.GreenDot {
+  background-color: green;
+  width: 65px;
+  height: 65px;
+  border-radius: 38px;
+  margin-right: 2px;
+}
+.GreenDot2 {
+  background-color: green;
+  width: 65px;
+  height: 65px;
+  border-radius: 38px;
+  margin-left: 02px;
+}
+.GreenDotsPipeLineContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.GreenDotsPipetext {
+  text-align: center;
+  font-size: 25px;
+  padding-left: 30px;
+  font-weight: 700;
+}
+.GreenDotsPipetext2 {
+  text-align: center;
+  font-size: 25px;
+  padding-right: 30px;
+  font-weight: 700;
+}
+.GreenDotsPipeLine {
+  background-color: white;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 75px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.GreenDotsPipeLine2 {
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 75px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.firstLastRowWidth {
+  width: 47%;
+}
+
+.second_4thWidth {
+  width: 43%;
+}
+.CenterdWidth {
+  width: 40%;
+}
+
+.leftRightcontainerBG1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+  background-image: url("../Images/CostEstimationBgForComponent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s linear;
+}
+
+.leftRightcontainerBG2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+  background-image: url("../Images/MaterialTakeOffBgForComponent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s linear;
+}
+.leftRightcontainerBG3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+  background-image: url("../Images/SchedulingBgForComponent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s linear;
+}
+.leftRightcontainerBG4 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+  background-image: url("../Images/PlaningtBgForComponent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s linear;
+}
+.LeftPart {
+  width: 60%;
+
+  height: 400px;
+  position: relative;
+}
+.ArrowContainer {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.arrow {
+  background-color: #20b621;
+  padding-top: 03px;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  border-radius: 20px;
+  margin: 5px;
+  transition: 0.5s;
+}
+.DeActive {
+  background-color: grey;
+  cursor: not-allowed !important;
+}
+.RightPart {
+  width: 40%;
+  height: 400px;
+  overflow: hidden;
+}
+.ImgRotateContainer {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  width: 950px;
+  justify-content: space-around;
+  transition: 0.5s;
+}
+.ImgRotateContainer2 {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  width: 900px;
+  justify-content: space-around;
+  margin-left: -240px;
+  transition: 0.5s;
+}
+.ImgRotateContainer3 {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  width: 900px;
+  justify-content: space-around;
+  margin-left: -470px;
+  transition: 0.5s;
+}
+.ImgRotateContainer4 {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  width: 900px;
+  justify-content: space-around;
+  margin-left: -674px;
+  transition: 0.5s;
+}
+.firstImg {
+  height: 300px;
+  width: 200px;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0px 2px 10px 2px black;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.restImages {
+  height: 250px;
+  width: 170px;
+  transition: 0.5s ease-in-out;
+}
+.MainServicesTextContainer {
+  padding: 40px;
+  color: white;
+  width: 80%;
+  /* background-color: blue; */
+  height: 320px;
+  overflow: auto;
+}
+.MainServicesTitle {
+  font-weight: 800;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.MainServicesText {
+  font-size: 19px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.OurAccuracyContainer {
+  padding: 10px 20px;
+  margin-top: 40px;
+}
+
+.tracking-in-contract-bck-top {
+  animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+}
+
+@keyframes tracking-in-contract-bck-top {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(400px) translateY(-300px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+.slide-in-left {
+  animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-right {
+  animation: slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.3s both;
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.scale-in-top {
+  animation: scale-in-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes scale-in-top {
+  0% {
+    transform: scale(0);
+    transform-origin: 50% 0%;
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 0%;
+    opacity: 1;
+  }
+}
+
+.WhyChooseUsContainer {
+  width: 100%;
+  height: 850px;
+  background-color: #2f2f2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.MainPointsContainer {
+  /* position: relative; */
+}
+.ACCURACYStatement {
+  position: absolute;
+  height: 340px;
+  width: 340px;
+  background-color: white;
+  border-radius: 170px;
+  top: 80px;
+  left: 30px;
+}
+.OurAccuracyParagraph {
+  margin-top: 16px;
+  padding-left: 20px;
+  font-size: 14px;
+
+  margin-bottom: 0px;
+}
+
+.EFFICENCYStatement {
+  position: absolute;
+  height: 360px;
+  width: 360px;
+  background-color: white;
+  border-radius: 180px;
+  top: 10px;
+  right: 50px;
+}
+.OurEFFICENCYParagraph {
+  margin-top: 16px;
+  padding-left: 18px;
+  font-size: 14px;
+
+  margin-bottom: 0px;
+}
+.OurRELIABILITYParagraph {
+  margin-top: 16px;
+  padding-left: 15px;
+  font-size: 14px;
+
+  margin-bottom: 0px;
+}
+.OurDEDICATIONContainer {
+  margin-top: 36px;
+  padding-left: 10px;
+  font-size: 14px;
+
+  margin-bottom: 0px;
+}
+.OurRELIABILITYContainer {
+  margin-top: 38px;
+  padding-left: 10px;
+  font-size: 14px;
+
+  margin-bottom: 0px;
+}
+.DEDICATIONStatement {
+  position: absolute;
+  height: 336px;
+  width: 336px;
+  background-color: white;
+  border-radius: 50%;
+  bottom: 50px;
+  right: 126px;
+}
+
+.RELIABILITYStatement {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border-radius: 150px;
+  bottom: 30px;
+  left: 180px;
+}
+
+.MainPointsContainer h1 {
+  color: white;
+  font-weight: bolder;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.sampalsContainer {
+  background-color: #cff0c5;
+  overflow: hidden;
+  width: 100%;
+  height: 350px;
+  clip-path: polygon(
+    0 0,
+    18% 9%,
+    34% 11%,
+    50% 12%,
+    80% 10%,
+    100% 0,
+    100% 100%,
+    78% 91%,
+    50% 89%,
+    23% 91%,
+    17% 92%,
+    0 100%
+  );
+}
+.width50 {
+  width: 50% !important;
+}
+.width25 {
+  width: 25% !important;
+}
+.sampleImgsContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.sampleImg {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .RELIABILITYStatement {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 150px;
+    bottom: 30px;
+    left: 51px;
+  }
+
+  .DEDICATIONStatement {
+    position: absolute;
+    /* height: 280px;
+    width: 280px; */
+    background-color: white;
+    border-radius: 50%;
+    bottom: 50px;
+    right: 50px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .width50 {
+    width: 100% !important;
+  }
+  .width25 {
+    width: 0% !important;
+  }
+
+  .slide-in-left {
+    animation: none !important;
+  }
+  .slide-in-right {
+    animation: none !important;
+  }
+  .OurAccuracyParagraph {
+    margin-top: 16px;
+    padding-left: 0px;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .OurEFFICENCYParagraph {
+    margin-top: 16px;
+    padding-left: 0px;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .OurRELIABILITYParagraph {
+    margin-top: 16px;
+    padding-left: 5px;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .WhyChooseUsContainer {
+    width: 100%;
+    height: 700px;
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .ACCURACYStatement {
+    position: absolute;
+    height: 300px;
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    top: 80px;
+    left: 30px;
+  }
+  .EFFICENCYStatement {
+    position: absolute;
+    height: 300px;
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    top: 80px;
+    right: 50px;
+  }
+  .RELIABILITYStatement {
+    position: absolute;
+    height: 250px;
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    bottom: 55px;
+    left: 31px;
+  }
+  .DEDICATIONStatement {
+    position: absolute;
+    height: 250px;
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    bottom: 55px;
+    right: 48px;
+  }
+
+  .MainPointsContainer h1 {
+    display: none;
+  }
+  .Section1_MainHeading {
+    color: #000;
+    font-family: Merriweather Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .SubHeadingContainer {
+    display: flex;
+    width: 40vw;
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    align-items: center;
+    /* margin-right: auto; */
+    margin-left: auto;
+  }
+  .mainImgContainer {
+    position: relative;
+    margin-top: 25px;
+  }
+  .hideOnSmallDevice {
+    font-size: 24px;
+    font-weight: 800;
+  }
+}
+@media screen and (max-width: 800px) {
+  .WhyChooseUsContainer {
+    width: 100%;
+    padding: 20px 0px;
+    height: auto;
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .ACCURACYStatement {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    top: 0px;
+    left: 0px;
+  }
+
+  .EFFICENCYStatement {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    top: 0px;
+    right: 0px;
+  }
+  .DEDICATIONStatement {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    bottom: 0px;
+    right: 0px;
+  }
+  .OurDEDICATIONContainer {
+    margin-top: 10px;
+    padding-left: 0px;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .RELIABILITYStatement {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    bottom: 0px;
+    left: 0px;
+  }
+  .OurRELIABILITYContainer {
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .OurRELIABILITYContainer {
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-bottom: 0px;
+  }
+  .SubHeadingContainer {
+    display: flex;
+    width: 50vw;
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    align-items: center;
+    /* margin-right: auto; */
+    margin-left: auto;
+  }
+  .MainServicesTextContainer {
+    padding: 20px;
+    color: white;
+    width: 90%;
+    /* background-color: blue; */
+    height: 320px;
+    overflow: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hideOnSmallDevice {
+    display: none;
+  }
+  .GreenDotsPipeLineContainer {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .firstLastRowWidth {
+    width: 100%;
+  }
+  .second_4thWidth {
+    width: 100%;
+  }
+  .CenterdWidth {
+    width: 100%;
+  }
+  .GreenDotsPipeContainer {
+    position: relative;
+    height: 860px;
+    /* max-height: 500px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainImgContainer {
+    position: relative;
+    margin-top: 25px;
+    height: 230px;
+  }
+  .MainHomeIImg {
+    width: 100%;
+    height: 220px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .GreenDotsPipetext {
+    text-align: center;
+    font-size: 22px;
+    padding-left: 30px;
+    font-weight: 700;
+  }
+  .GreenDotsPipetext2 {
+    text-align: center;
+    font-size: 22px;
+    padding-right: 30px;
+    font-weight: 700;
+  }
+  .Section1_MainHeading {
+    color: #000;
+    font-family: Merriweather Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .SubHeadingContainer {
+    display: flex;
+    width: 60vw;
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    align-items: center;
+    /* margin-right: auto; */
+    margin-left: auto;
+  }
+  .UploadPlansbtn {
+    border-radius: 15px;
+    border: 5px solid #fff;
+    background: #2f2f2f;
+    color: #fff;
+    padding: 13px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: -25px;
+    left: 16%;
+  }
+
+  .MainServicesText {
+    font-size: 17px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+  .MainServicesTitle {
+    font-weight: 800;
+    font-size: 23px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+  .RightPart {
+    width: 50%;
+  }
+  .Leftpart {
+    width: 50%;
+  }
+  .MainServicesTextContainer {
+    padding: 20px;
+    color: white;
+    width: 100%;
+    /* background-color: blue; */
+    height: 320px;
+    overflow: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .firstImg {
+    height: 230px;
+    width: 150px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 2px 10px 2px black;
+    border-radius: 15px;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  .ArrowContainer {
+    position: absolute;
+    right: -10px;
+    bottom: 7px;
+  }
+  .SubHeadingContainer {
+    display: flex;
+    width: 80vw;
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    align-items: center;
+    /* margin-right: auto; */
+    margin-left: auto;
+  }
+
+  .GreenDotsPipetext {
+    text-align: center;
+    font-size: 20px;
+    padding-left: 30px;
+    font-weight: 700;
+  }
+  .GreenDotsPipetext2 {
+    text-align: center;
+    font-size: 20px;
+    padding-right: 30px;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 450px) {
+  .LeftPart {
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+  .RightPart {
+    width: 0%;
+    height: 400px;
+    position: relative;
+  }
+  .ArrowContainer {
+    position: absolute;
+    right: 150px;
+    bottom: 7px;
+  }
+}

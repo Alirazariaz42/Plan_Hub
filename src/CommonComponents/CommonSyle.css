@@ -1,0 +1,331 @@
+a[href="mailto:AM@planhubestimating.com"] {
+  font-weight: 700;
+}
+
+a[href="tel:+1 917 300 1079"] {
+  font-weight: 700;
+}
+
+.HalfTextHalfImgParagraph {
+  font-size: 20px;
+}
+
+.subPage {
+  transition: 0.4s;
+}
+.subPage:hover {
+  transition: 0.4s;
+  transform: scale(1.1);
+}
+.CirculercardContainer {
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 150px;
+
+  position: relative;
+  transition: 0.2s linear;
+  cursor: pointer;
+}
+.CirculercardContainer:hover {
+  transition: 0.2s linear;
+  box-shadow: 0px 0px 6px 2px black;
+}
+.TransparentBlackLayer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 220px;
+  background-color: rgba(0, 0, 0, 0.411);
+  top: 0px;
+  transition: 0.2s linear;
+}
+.TransparentBlackLayer:hover {
+  background-color: rgba(0, 0, 0, 0.11);
+  transition: 0.2s linear;
+}
+
+.CirculercardTitle {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  letter-spacing: 0.4px;
+}
+
+.CirculercardImg {
+  width: 100%;
+  height: 100%;
+}
+.SERVICESheading {
+  color: white;
+  margin-left: 10px;
+}
+.servicesSidebarContainer {
+  border-radius: 15px;
+  background: #212121;
+  padding: 20px 0px;
+  position: sticky;
+  top: 100px;
+}
+.servicesNamesLink {
+  text-decoration: none;
+}
+.servicesNames.Active {
+  background-color: #c4cac4 !important ;
+  color: black;
+}
+.servicesNames {
+  font-weight: 700;
+  background-color: #20b621;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  text-align: center;
+  color: white;
+  font-size: 16px !important;
+  padding: 15px;
+}
+.TakeOffService {
+  background-color: #20b621;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  padding: 15px;
+  display: block;
+}
+.QuantitiesMaterialTakeoff {
+  height: 0px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.QuantitiesMaterialTakeoffAfter {
+  height: 50px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.TakeOffService.Active {
+  background-color: #c4cac4;
+  color: black;
+}
+.TakeOffService h3 {
+  font-size: 16px !important;
+  font-weight: 700;
+}
+.servicesContainer {
+  width: 85%;
+}
+.ServicesCommonHeadings {
+  font-weight: 900;
+  padding: 30px 0px;
+  text-transform: capitalize;
+}
+.ServicesSubCommonHeadings {
+  color: black;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.paragraph {
+  color: black;
+  font-size: 19px;
+  margin: 0px;
+  padding: 0px;
+}
+.ULheadingContainer {
+  font-size: 24px;
+  color: black;
+  font-weight: 600;
+}
+
+.OurTradesPagesContainer {
+  width: 98%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  position: sticky;
+  top: 93px;
+  height: 475px;
+  box-shadow: 2px 2px 8px grey;
+  overflow: auto;
+}
+.OurTradesPagesName {
+  padding: 0px;
+  margin: 0px;
+  padding-left: 10px;
+  padding-top: 5px;
+  transition: 0.3s;
+}
+.lateronclassAdded {
+  min-width: 220px;
+}
+.OurTradesPagesName:hover {
+  color: #20b621;
+  font-weight: 600;
+  /* font-size: 17px; */
+  transition: 0.3s;
+  text-decoration: underline;
+}
+.hideonMediumScreen {
+  display: block;
+}
+.downpageContainer {
+  background-color: rgba(0, 0, 0, 0.842);
+  color: white;
+  border-radius: 5px;
+  height: 0px;
+  overflow: hidden;
+  transition: 2.5s !important;
+}
+.downpageContainer.arrowdown1 {
+  height: 38px;
+  padding: 02px 10px;
+  transition: 0.8s !important;
+}
+.downpageContainer2 {
+  background-color: rgba(0, 0, 0, 0.842);
+  color: white;
+  border-radius: 5px;
+  height: 0px;
+  transition: 2.5s !important;
+  overflow: hidden;
+}
+.downpageContainer2.arrowdown2 {
+  height: 80px;
+  transition: 0.8s !important;
+  padding: 05px 10px;
+}
+.downpageContainer3 {
+  background-color: rgba(0, 0, 0, 0.842);
+  color: white;
+  border-radius: 5px;
+  height: 0px;
+  transition: 2.5s !important;
+  overflow: hidden;
+}
+.downpageContainer3.arrowdown3 {
+  height: 95px;
+  transition: 0.8s !important;
+  padding: 05px 10px;
+}
+.downpageContainer4 {
+  background-color: rgba(0, 0, 0, 0.842);
+  color: white;
+  border-radius: 5px;
+  height: 0px;
+  transition: 2.5s !important;
+  overflow: hidden;
+}
+.downpageContainer4.arrowdown4 {
+  height: 120px;
+  transition: 0.8s !important;
+  padding: 05px 10px;
+}
+.downpageContainer5 {
+  background-color: rgba(0, 0, 0, 0.842);
+  color: white;
+  border-radius: 5px;
+  height: 0px;
+  transition: 2.5s !important;
+  overflow: hidden;
+}
+.downpageContainer5.arrowdown5 {
+  height: 225px;
+  transition: 0.8s !important;
+  padding: 05px 10px;
+}
+
+.EffincyAccuracyDeliveryContainer {
+  padding: 20px;
+  margin-top: 20px;
+  border: 2px dashed black;
+  border-radius: 15px;
+}
+.UploadPlansButton {
+  color: white;
+  font-weight: 400;
+  border: none;
+  background-color: #20b621;
+  padding: 15px 15px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+@media screen and (min-height: 600px) {
+  .OurTradesPagesContainer {
+    width: 98%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: sticky;
+    top: 93px;
+    height: 600px;
+    overflow: auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hideonMediumScreen {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .servicesNames {
+    font-weight: 600;
+    border-top-right-radius: 04px;
+    border-bottom-right-radius: 04px;
+    text-align: center;
+    color: white;
+    font-size: 14px !important;
+    padding: 10px;
+  }
+  .servicesContainer {
+    width: 98%;
+  }
+  .SERVICESheading {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .HalfTextHalfImgParagraph {
+    font-size: 18px !important;
+  }
+  .paragraph {
+    font-size: 18px !important;
+  }
+}
+@media screen and (max-width: 650px) {
+  .servicesNames {
+    font-weight: 600;
+    border-top-right-radius: 04px;
+    border-bottom-right-radius: 04px;
+    text-align: left;
+    color: white;
+    font-size: 14px !important;
+    padding: 10px 4px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .servicesSidebarContainer {
+    display: none;
+  }
+
+  .ServicesCommonHeadings {
+    font-weight: 700;
+    padding: 20px 0px;
+    font-size: 23px;
+    text-transform: capitalize;
+
+  }
+}
+@media screen and (max-width: 400px) {
+  .HalfTextHalfImgParagraph {
+    font-size: 17px;
+  }
+  .row {
+    width: 101% !important ;
+  }
+  .paragraph {
+    font-size: 16px !important;
+  }
+}
